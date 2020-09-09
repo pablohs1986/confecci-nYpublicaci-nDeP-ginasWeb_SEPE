@@ -1,1 +1,1 @@
-# confecci-nYpublicaci-nDeP-ginasWeb_SEPE
+# Exercises from SEPE's Confección y Publicación de Páginas Web course
