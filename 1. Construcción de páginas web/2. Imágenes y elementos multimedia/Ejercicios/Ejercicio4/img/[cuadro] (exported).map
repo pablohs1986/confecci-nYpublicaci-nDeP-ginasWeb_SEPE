@@ -1,0 +1,13 @@
+<img src="[cuadro] (exported)" width="600" height="600" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:pablo -->
+<area shape="rect" coords="1,0,306,296" alt="Xataka" href="www.xataka.com/" />
+<area shape="rect" coords="306,296,598,600" alt="GenBeta" href="https://www.genbeta.com/" />
+<area shape="rect" coords="306,1,600,295" alt="Hackernoon" href="https://hackernoon.com/" />
+<area shape="rect" coords="3,296,306,599" alt="Stack" href="https://stackoverflow.com/" />
+</map>
