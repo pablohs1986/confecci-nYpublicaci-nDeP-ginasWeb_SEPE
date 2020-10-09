@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    
+}
+
+tbody {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+}
+
+th {
+    border: 0;
+}
+
+td {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.primeraCelda {
+    background-color: yellow;
+    color: blue;
+
+}
+
+td:last-child {
+    background-color: gainsboro;
+    color: red;
+}
