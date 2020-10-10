@@ -1,0 +1,63 @@
+body {
+    background-color: silver;
+}
+
+/* Encabezado */
+.encabezado {
+    width: 100%;
+    background-color: brown;
+}
+
+.encabezado h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Menú */
+.menu {
+    text-align: center;
+    background-color: cyan;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    background-color: khaki;
+    border: 1px dotted black;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+/* Artículo */
+.articulo p::first-letter{
+    font-size: xx-large;
+    color: red;
+    font-weight: bold;
+}
+
+.articulo h2 {
+    background-color: yellow;
+}
+
+.articulo p {
+    background-color: pink;
+}
+
+/* Pie de página */
+footer {
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    background-color: brown;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    border-color: black;
+    border-width: 1px;
+}
