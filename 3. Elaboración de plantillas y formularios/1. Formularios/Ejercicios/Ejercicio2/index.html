@@ -1,0 +1,47 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Ejercicio 2</title>
+</head>
+<body>
+    <h1>Encuesta</h1>
+    <form action="enviado.html" method="POST">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label>Nombre: <input type="text" name="nombre" value="" autocomplete="off"/></label> <br/>
+            <label>Apellidos: <input type="text" name="apellidos" value=""autocomplete="off"/></label><br/>
+            <label>Email: <input type="email" name="email" value="" required/></label><br/>
+        </fieldset><br>
+        <fieldset>
+            <legend>Encuesta</legend>
+            ¿Qué puntuación le darías a esta página?
+            <br>
+            &nbsp;&nbsp;
+            <label for="radio5">5</label>
+            <input type="radio" id="radio5" name="notaPagina" value=5>
+            <label for="radio4">4</label>
+            <input type="radio" id="radio4" name="notaPagina" value=4>
+            <label for="radio3">3</label>
+            <input type="radio" id="radio3" name="notaPagina" value=3>
+            <label for="radio2">2</label>
+            <input type="radio" id="radio2" name="notaPagina" value=2>
+            <label for="radio1">1</label>
+            <input type="radio" id="radio1" name="notaPagina" value=1>
+            <label for="radio0">0</label>
+            <input type="radio" id="radio0" name="notaPagina" value=0>
+            <br><br>
+
+            ¿Qué apartados te gustaría añadir a esta página?<br>
+            &nbsp;<input type="radio" name="contenido1" value="Blog">Blog<br>
+            &nbsp;<input type="radio" name="contenido2" value="Fotos">Fotos<br>
+            &nbsp;<input type="radio" name="contenido3" value="Redes Sociales">Redes Sociales<br>
+            &nbsp;<input type="radio" name="contenido4" value="Música">Música<br>
+            &nbsp;<input type="radio" name="contenido5" value="Noticias">Noticias<br>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>
