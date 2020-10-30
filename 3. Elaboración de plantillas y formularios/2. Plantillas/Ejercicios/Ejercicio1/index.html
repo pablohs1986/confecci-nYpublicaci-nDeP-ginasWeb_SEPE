@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- ************************************************************************************************ -->
+<!-- Plantilla para la realización de un examen. Realizada por Pablo Herrero el 30 de octubre de 2020 -->
+<!-- ************************************************************************************************ -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título para la web del examen, modificable -->
+    <title>Título exámen</title> 
+</head>
+<body>
+    <!-- Principio de la plantilla -->
+
+        <!-- Título: modificar "asignatura" por el nombre de la asignatura-->
+        <h1>Examen de ASIGNATURA</h1> 
+
+        
+        <form action="webDestino.html" method="POST"> <!-- Introducir web de destino cuando se pulse el botón enviar. Se deberá modificar "action" con la web/servidor de destino, así como "method" según la función deseada -->
+
+            <!-- Sección Datos Alumno -->
+            <fieldset>
+                <legend>Datos del alumno</legend> 
+                <input type="text" name="nombreAlumno"> <!-- Campo donde el alumno introduce su nombre -->
+            </fieldset> <br>
+
+            <!-- Sección Datos Alumno -->
+            <fieldset>
+                <legend>Preguntas del exámen</legend> 
+                <!-- Preguntas del exámen -->
+
+                    <!-- Preguntas de opción múltiple y una única opción posible -->
+
+                        <!-- Pregunta 1 -->
+                        <label for="pregunta1">Pregunta 1 (selecionar sólo una opción):</label><br> <!-- Modificar por el texto de la pregunta -->
+                            <input type="radio" name="pregunta1" value="pregunta1Respuesta1"> 
+                            <label for="respuesta">Respuesta 1</label><br>  <!-- Modificar por la respuesta, opción A -->
+                            <input type="radio" name="pregunta1" value="pregunta1Respuesta2"> 
+                            <label for="respuesta">Respuesta 2</label><br> <!-- Modificar por la respuesta, opción B -->
+                            <input type="radio" name="pregunta1" value="pregunta1Respuesta3"> 
+                            <label for="respuesta">Respuesta 3</label><br><br> <!-- Modificar por la respuesta, opción C -->
+
+                        <!-- Pregunta 2 -->
+                        <label for="pregunta2">Pregunta 2 (selecionar sólo una opción):</label><br> <!-- Modificar por el texto de la pregunta -->
+                            <input type="radio" name="pregunta2" value="pregunta2Respuesta1"> 
+                            <label for="respuesta">Respuesta 1</label><br>  <!-- Modificar por la respuesta, opción A -->
+                            <input type="radio" name="pregunta2" value="pregunta2Respuesta2"> 
+                            <label for="respuesta">Respuesta 2</label><br> <!-- Modificar por la respuesta, opción B -->
+                            <input type="radio" name="pregunta2" value="pregunta2Respuesta3"> 
+                            <label for="respuesta">Respuesta 3</label><br><br> <!-- Modificar por la respuesta, opción C -->
+
+                        <!-- Pregunta 3 -->
+                        <label for="pregunta3">Pregunta 3 (selecionar sólo una opción):</label><br> <!-- Modificar por el texto de la pregunta -->
+                            <input type="radio" name="pregunta3" value="pregunta3Respuesta1"> 
+                            <label for="respuesta">Respuesta 1</label><br>  <!-- Modificar por la respuesta, opción A -->
+                            <input type="radio" name="pregunta3" value="pregunta3Respuesta2"> 
+                            <label for="respuesta">Respuesta 2</label><br> <!-- Modificar por la respuesta, opción B -->
+                            <input type="radio" name="pregunta3" value="pregunta3Respuesta3"> 
+                            <label for="respuesta">Respuesta 3</label><br><br> <!-- Modificar por la respuesta, opción C -->
+
+                        <!-- Pregunta 4 -->
+                        <label for="pregunta4">Pregunta 4 (selecionar sólo una opción):</label><br> <!-- Modificar por el texto de la pregunta -->
+                            <input type="radio" name="pregunta4" value="pregunta4Respuesta1"> 
+                            <label for="respuesta">Respuesta 1</label><br>  <!-- Modificar por la respuesta, opción A -->
+                            <input type="radio" name="pregunta4" value="pregunta4Respuesta2"> 
+                            <label for="respuesta">Respuesta 2</label><br> <!-- Modificar por la respuesta, opción B -->
+                            <input type="radio" name="pregunta4" value="pregunta4Respuesta3"> 
+                            <label for="respuesta">Respuesta 3</label><br><br> <!-- Modificar por la respuesta, opción C -->
+
+                    <!-- Preguntas de opción múltiple y una única opción posible -->
+
+                        <!-- Pregunta 5 -->
+                        <label for="pregunta5">Pregunta 5 (seleccionar una o varias opciones):</label><br> <!-- Modificar por el texto de la pregunta -->
+                            <input type="radio" name="pregunta5_A" value="pregunta5Respuesta1"> 
+                            <label for="respuesta">Respuesta 1</label><br>  <!-- Modificar por la respuesta, opción A -->
+                            <input type="radio" name="pregunta5_B" value="pregunta5Respuesta2"> 
+                            <label for="respuesta">Respuesta 2</label><br> <!-- Modificar por la respuesta, opción B -->
+                            <input type="radio" name="pregunta5_C" value="pregunta5Respuesta3"> 
+                            <label for="respuesta">Respuesta 3</label><br><br> <!-- Modificar por la respuesta, opción C -->
+            </fieldset><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+
+    <!-- Final de la plantilla -->
+</body>
+</html>
