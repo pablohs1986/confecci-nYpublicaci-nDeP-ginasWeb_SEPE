@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulacro de examen</title>
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <div class="encabezado">
+        <h1>Cabecera de la página</h1>
+    </div>
+    <!-- Menú -->
+    <div class="menu">
+        <a href="inicio.html">Inicio</a>
+        <a href="economia.html">Economía</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="tecnologia.html">Tecnología</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+    <!-- Contenidos -->
+    <div class="contenidos">
+        <form action="paginaDestino.html" method="get">
+            <fieldset>
+                <legend>Datos</legend>
+                <label>Nombre
+                <input type="text" name="nombre" ></label> <br>
+                <label>Apellido 1
+                <input type="text" name="apellido1"></label> <br>
+                <label>Apellido 2
+                <input type="text" name="apellido2"></label> <br>
+                <label>Email
+                <input type="email" name="email" required></label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                    ¿Cuál de estas secciones te gustaría ver en esta web? <br>
+                    <label for="motor">Motor</label> 
+                    <input type="radio" name="nuevaSeccion"> <br>  <!-- Poner mismo nombre para que sólo permita elegir una opcion-->
+                    <label for="sociedad">Sociedad</label>
+                    <input type="radio" name="nuevaSeccion"> <br><br>
+                    
+                    ¿Cuáles de nuestras secciones son de tu agrado? <br>
+                    <label for="motor">Economía</label> 
+                    <input type="checkbox" name="economía"> <br>  <!-- Poner mismo nombre para que sólo permita elegir una opcion-->
+                    <label for="Deportes">Sociedad</label>
+                    <input type="checkbox" name="deportes"> <br>
+                    <label for="Deportes">Tecnología</label>
+                    <input type="checkbox" name="tecnología"> <br><br>
+                    <button type="submit">Enviar</button> 
+                    <button type="reset">Limpiar</button>
+            </fieldset>
+        </form>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <small>Teléfono: 234234234</small> <br>
+        <small>direccióndeprueba@gmail.com</small>
+    </footer>
+    
+</body>
+</html>
